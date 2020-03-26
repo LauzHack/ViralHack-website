@@ -1,7 +1,3 @@
-# Whether to display text about the prospectus.
-# See the ReadMe file for information about it.
-show_prospectus: false
-
 # Sponsors, organized by tiers.
 # Tiers have a size, and may have a background color (for e.g. gold/silver/bronze)
 # Each sponsor has a link to its website.

@@ -99,12 +99,6 @@ layout: default
 </section>
 {% if site.data.sponsors %}
   <section class="section-sponsors tone-emphasis">
-    {% if site.data.sponsors.show_prospectus %}
-      <div>
-        <p>Interested in sponsoring us? Check out our <a target="_blank" href="/pdf/sponsor-prospectus.pdf">sponsorship prospectus</a>.</p>
-      </div>
-    {% endif %}
-
     {% for tier in site.data.sponsors.tiers %}
       {% if tier[1].show_title %}
         <h1>{{ tier[0] }}</h1>
@@ -138,6 +132,8 @@ layout: default
         </div>
       {% endif %}
     {% endfor %}
+
+    <p>Want to help? <a target="_blank" rel="noreferrer" href="https://forms.gle/SrqvCiLhGCGQWytt5">Sign up as a partner!</a></p>
   </section>
 {% endif %}
 <section class="tone-dark">
