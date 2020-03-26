@@ -10,12 +10,14 @@ location: Online
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
 description_short: Online hackathon against COVID-19 from EPFL, Switzerland
 description_long: |-
-  LauzHack Against COVID-19 is an online hackathon to fight the novel coronavirus, organized by EPFL students and staff.
+  LauzHack Against COVID-19 is a 72h online hackathon dedicated to fighting the coronavirus crisis.
 
-  Come lend a hand in this fight! In the span of a weekend, you'll come up with an impactful idea to fight the crisis,  
-  and develop it into an open source idea as part of a team.
+  Come lend a hand! During the hackathon, you will work on an impactful idea, get help from mentors, and create an open-source prototype.  
+  You can come up with your own idea, or work on an existing one.
 
-  The event is open to everyone from everywhere in the world, in teams of any size.
+  To win this fight, we need people with a variety of backgrounds and skill sets.
+
+  With the help of EPFL, we will then support people who want to turn their prototypes into production-quality projects.
 
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
 email: info at lauzhack dot com
