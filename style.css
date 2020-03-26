@@ -106,6 +106,24 @@ tr {
   color: #fff;
 }
 
+.tone-emphasis {
+  background: #fff;
+  color: #000;
+  font-size: 1.7em;
+}
+
+.tone-emphasis a {
+  color: #222;
+}
+
+.tone-emphasis a:active,
+.tone-emphasis a:focus,
+.tone-emphasis a:hover {
+  color: #000;
+}
+
+
+
 
 /* Header */
 .header {

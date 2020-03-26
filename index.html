@@ -41,24 +41,9 @@ layout: default
     for updates!
   </p>
 </section>
-<section class="tone-dark">
+<section class="tone-emphasis">
   <div>
     {{ site.data.info.description_long | markdownify }}
-
-    {% if site.data.workshops %}
-      <p>
-        We also organize <a href="/workshops">{{ site.data.workshops.name }}</a>.
-      </p>
-    {% endif %}
-
-    {% if site.data.info.past_editions %}
-      <p>
-        Check out the past editions:
-        {% for edition in site.data.info.past_editions %}
-          <a href="{{ edition[1] }}">{{ edition[0] }}</a>
-        {% endfor %}
-      </p>
-    {% endif %}
 
     <p>
       Please keep in mind our <a href="/pdf/rules.pdf">rules</a>.
@@ -91,7 +76,7 @@ layout: default
 {% endif %}
 <section>
   {% if site.data.faq %}
-    <h1 id="faq">F.A.Q.</h1>
+    <a id="faq"></a>
     <div class="items-container">
       {% for item in site.data.faq %}
         <div class="item-large">
@@ -113,7 +98,7 @@ layout: default
   {% endif %}
 </section>
 {% if site.data.sponsors %}
-  <section class="section-sponsors">
+  <section class="section-sponsors tone-emphasis">
     {% if site.data.sponsors.show_prospectus %}
       <div>
         <p>Interested in sponsoring us? Check out our <a href="/pdf/sponsor-prospectus.pdf">sponsorship prospectus</a>.</p>
