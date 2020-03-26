@@ -1,0 +1,38 @@
+# FAQ, optional.
+# Questions, answers, and an optional 'id' field for hyperlinks (e.g. if you need to show a specific answer to someone).
+# The last question is automatically added with the contact information.
+# Beware, YAML/Markdown syntax is a bit tricky:
+# - Use the weird |- syntax to allow answers to span lines.
+# - End lines with two spaces if you want to force a line break, otherwise the line break is ignored.
+
+- q: Can I participate?
+  a: |- 
+        Yes! Anyone can participate.
+
+- q: How much does it cost?
+  a: |-
+        Nothing! Participation is free of charge.
+
+- q: Where is it?
+  a: |-
+        Online! As a good virus fighter, you'll stay at home during this hackathon.
+
+- q: What about teams?
+  a: |-
+        You will register individually, then form teams of any size you want with whoever you want.
+
+- q: What if I don't have a team?
+  a: |-
+        Don't worry! Part of the fun of a hackathon is meeting new people.  
+        You will have time at the beginning of the event to socialize and form teams.
+
+- q: Can I work on an existing project?
+  a: |-
+        Sure! You are free to work on anything you want, including existing projects.  
+        Just make sure you can clearly distinguish what you did during the hackathon.
+
+- id: ip
+  q: What about intellectual property?
+  a: |-
+        We do not claim any rights on any of your intellectual property whatsoever.  
+        Everything you create belongs to you.
