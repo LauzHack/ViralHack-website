@@ -130,8 +130,7 @@ tr {
   /* Fake a dark overlay with a gradient. Black is black... I want my sanity back... */
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/background.jpg') no-repeat center center;
   background-size: cover;
-  min-height: 100vh;
-  padding: 0;
+  padding: 10vh 0;
 }
 
 .header p {
@@ -141,7 +140,6 @@ tr {
 
 .header img {
   max-width: 95%;
-  margin: 5em auto 0 auto;
 }
 
 
