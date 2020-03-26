@@ -10,18 +10,27 @@ layout: default
     <br>
     {{ site.data.info.location }}
   </p>
-  {% if site.data.action.text %}
-    <p>
-      {% if site.data.action.link %}
+  <p>
+  {% if site.data.action.text1 %}
+      {% if site.data.action.link1 %}
         <a class="tone-dark link-action"
-           href="{{ site.data.action.link }}"
-           rel="noreferrer">{{ site.data.action.text | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+           href="{{ site.data.action.link1 }}"
+           rel="noreferrer">{{ site.data.action.text1 | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a>
       {% else %}
-        {{ site.data.action.text | markdownify }}
+        {{ site.data.action.text1 | markdownify | strip }}
       {% endif %}
-    </p>
   {% endif %}
-
+    or
+  {% if site.data.action.text2 %}
+      {% if site.data.action.link2 %}
+        <a class="tone-dark link-action"
+           href="{{ site.data.action.link2 }}"
+           rel="noreferrer">{{ site.data.action.text2 | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a>
+      {% else %}
+        {{ site.data.action.text2 | markdownify | strip }}
+      {% endif %}
+  {% endif %}
+  </p>
   <p>
     Follow us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
                     rel="noreferrer">Facebook</a>

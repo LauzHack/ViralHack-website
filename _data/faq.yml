@@ -7,7 +7,8 @@
 
 - q: Can I participate?
   a: |- 
-        Yes! Anyone can participate.
+        Yes! Anyone can participate, not just students.  
+        You can also participate as a mentor, to help others in your area of expertise.
 
 - q: How much does it cost?
   a: |-
@@ -28,8 +29,8 @@
 
 - q: Can I work on an existing project?
   a: |-
-        Sure! You are free to work on anything you want, including existing projects.  
-        Just make sure you can clearly distinguish what you did during the hackathon.
+        Sure! You are free to fight COVID-19 with anything you want, including prior work.  
+        Just make sure to give credit for any previous work, and show which part is yours.
 
 - id: ip
   q: What about intellectual property?

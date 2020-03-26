@@ -1,5 +1,7 @@
 # Call to action, optional.
 # If the link is set, the call will appear as a button.
 
-text: Register now!
-link: https://forms.gle/nGPtuV7ULFcoAF427
+text1: Sign up as a participant
+link1: https://forms.gle/j5bWDXZxVCErjwqt6
+text2: as a mentor
+link2: https://forms.gle/wW1ERQjAFr2mVyyQA
