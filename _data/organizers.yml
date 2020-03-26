@@ -10,8 +10,8 @@ group:
 # People organizing the event, and their websites.
 # See the ReadMe file for information on pictures.
 people:
-  - first: Betty
-    last: Pirelli
+  - first: Blagovesta
+    last: Kostova
     link: https://linkedin.com/in/blagovestakostova
 
   - first: Boubacar
