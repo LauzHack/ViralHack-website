@@ -15,7 +15,7 @@ layout: default
       {% if site.data.action.link1 %}
         <a class="tone-dark link-action"
            href="{{ site.data.action.link1 }}"
-           rel="noreferrer">{{ site.data.action.text1 | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a>
+           target="_blank" rel="noreferrer">{{ site.data.action.text1 | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a>
       {% else %}
         {{ site.data.action.text1 | markdownify | strip }}
       {% endif %}
@@ -25,7 +25,7 @@ layout: default
       {% if site.data.action.link2 %}
         <a class="tone-dark link-action"
            href="{{ site.data.action.link2 }}"
-           rel="noreferrer">{{ site.data.action.text2 | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a>
+           target="_blank" rel="noreferrer">{{ site.data.action.text2 | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a>
       {% else %}
         {{ site.data.action.text2 | markdownify | strip }}
       {% endif %}
@@ -33,10 +33,10 @@ layout: default
   </p>
   <p>
     Follow us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
-                    rel="noreferrer">Facebook</a>
+                    target="_blank" rel="noreferrer">Facebook</a>
     {% if site.data.info.twitter %}
       and <a href="https://twitter.com/{{ site.data.info.twitter }}"
-             rel="noreferrer">Twitter</a>
+             target="_blank" rel="noreferrer">Twitter</a>
     {% endif %}
     for updates!
   </p>
@@ -46,7 +46,7 @@ layout: default
     {{ site.data.info.description_long | markdownify }}
 
     <p>
-      Please keep in mind our <a href="/pdf/rules.pdf">rules</a>.
+      Please keep in mind our <a target="_blank" href="/pdf/rules.pdf">rules</a>.
     </p>
   </div>
 </section>
@@ -87,10 +87,10 @@ layout: default
       <div class="item-large">
         <h2>I have another question...</h2>
         <p>Contact us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
-                            rel="noreferrer">Facebook</a>,
+                            target="_blank" rel="noreferrer">Facebook</a>,
           {% if site.data.info.twitter %}
             on <a href="https://twitter.com/{{ site.data.info.twitter }}"
-                  rel="noreferrer">Twitter</a>,
+                  target="_blank", rel="noreferrer">Twitter</a>,
           {% endif %}
           <br>
           or by email ({{ site.data.info.email }})!</p>
@@ -101,7 +101,7 @@ layout: default
   <section class="section-sponsors tone-emphasis">
     {% if site.data.sponsors.show_prospectus %}
       <div>
-        <p>Interested in sponsoring us? Check out our <a href="/pdf/sponsor-prospectus.pdf">sponsorship prospectus</a>.</p>
+        <p>Interested in sponsoring us? Check out our <a target="_blank" href="/pdf/sponsor-prospectus.pdf">sponsorship prospectus</a>.</p>
       </div>
     {% endif %}
 
@@ -128,7 +128,7 @@ layout: default
 
             <div class="item-large">
               <a href="{{ sponsor[1] }}"
-                 rel="noreferrer">
+                 target="_blank" rel="noreferrer">
                  <img src="{{ file_img }}"
                       alt="{{ tier[0] }} - {{ sponsor[0] }}"
                       style="height: {{ tier[1].size }}vh">
@@ -147,7 +147,7 @@ layout: default
       <div class="item-small">
         <a class="person-link"
            href="{{ person.link }}"
-           rel="noreferrer">
+           target="_blank" rel="noreferrer">
             <div class="person-container">
               <img class="person-image"
                    src="images/people/{{ person.first }} {{ person.last }}.jpg"
