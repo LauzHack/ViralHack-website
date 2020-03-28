@@ -148,6 +148,8 @@ tr {
   padding: 0.1em 0.3em;
   text-decoration: none;
   position: relative;
+  line-height: 2em;
+  white-space: nowrap;
 }
 
 .link-action:after {
