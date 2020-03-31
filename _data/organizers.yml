@@ -10,6 +10,10 @@ group:
 # People organizing the event, and their websites.
 # See the ReadMe file for information on pictures.
 people:
+  - first: Alexandre
+    last: Chau
+    link: https://linkedin.com/in/chau-alexandre
+
   - first: Blagovesta
     last: Kostova
     link: https://linkedin.com/in/blagovestakostova
