@@ -6,11 +6,6 @@ layout: default
        src="images/logo.svg"
        alt="{{ site.data.info.name }}">
   <p>
-    {{ site.data.info.date }}
-    <br>
-    {{ site.data.info.location }}
-  </p>
-  <p>
   {% if site.data.action.text1 %}
       {% if site.data.action.link1 %}
         <a class="tone-dark link-action"
@@ -30,6 +25,11 @@ layout: default
         {{ site.data.action.text2 | markdownify | strip }}
       {% endif %}
   {% endif %}
+  </p>
+  <p>
+    {{ site.data.info.date }}
+    <br>
+    {{ site.data.info.location }}
   </p>
   <p>
     Follow us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
