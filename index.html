@@ -20,8 +20,8 @@ layout: default
         {{ site.data.action.text1 | markdownify | strip }}
       {% endif %}
   {% endif %}
-    or
   {% if site.data.action.text2 %}
+    or
       {% if site.data.action.link2 %}
         <a class="tone-dark link-action"
            href="{{ site.data.action.link2 }}"
@@ -30,9 +30,6 @@ layout: default
         {{ site.data.action.text2 | markdownify | strip }}
       {% endif %}
   {% endif %}
-  </p>
-  <p>
-    We are sending information e-mails to all registered participants; check your spam folder!
   </p>
   <p>
     Follow us on <a href="https://facebook.com/{{ site.data.info.facebook }}"

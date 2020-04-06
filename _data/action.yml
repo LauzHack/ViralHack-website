@@ -1,7 +1,9 @@
 # Call to action, optional.
 # If the link is set, the call will appear as a button.
 
-text1: Sign up as a participant
-link1: https://forms.gle/j5bWDXZxVCErjwqt6
-text2: as a mentor
-link2: https://forms.gle/wW1ERQjAFr2mVyyQA
+text1: Public voting open until April 9, 11pm!
+link1: https://lauzhack-against-covid-19.devpost.com/submissions
+#text1: Sign up as a participant
+#link1: https://forms.gle/j5bWDXZxVCErjwqt6
+#text2: as a mentor
+#link2: https://forms.gle/wW1ERQjAFr2mVyyQA
